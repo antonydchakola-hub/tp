@@ -9,10 +9,10 @@ import java.util.stream.Collectors;
 public class AutocompleteEngine {
 
     private final List<String> commandTemplates = List.of(
-            "add n/ a/ p/ e/",
+            "add n/ a/ p/ e/ addr/",
             "clear",
             "delete ",
-            "edit ",
+            "edit n/ a/ p/ e/ addr/",
             "exit",
             "filter a/",
             "find ",
